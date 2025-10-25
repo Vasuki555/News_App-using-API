@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>News App</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search news...">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div class="category-container">
+        <button class="category-btn" data-category="technology">Technology</button>
+        <button class="category-btn" data-category="sports">Sports</button>
+        <button class="category-btn" data-category="business">Business</button>
+        <button class="category-btn" data-category="entertainment">Entertainment</button>
+    </div>
+
+    <div id="news-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
